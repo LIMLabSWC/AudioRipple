@@ -1,0 +1,10 @@
+Data/*
+NuGet.Config
+figs/*
+Gauss_Data/*
+*.png
+*.eps
+Extensions*
+bin*
+obj*
+pres_figs*
