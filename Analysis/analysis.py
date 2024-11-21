@@ -910,7 +910,7 @@ def test_gauss(mean,std,num_samp,num_bins = 30):
 
 def main():
     all_data = total_handler()
-    df = all_data.get_all_df(reject=  ["Mattias"])
+    df = all_data.get_all_df(reject=  ["pt_NULL"])
     samps  = df["SampleDensity"].to_numpy() / 1.7 * jnp.pi
     resps  = df["EndMatchDensity"].to_numpy() / 1.7 * jnp.pi
     fig,_,resp = all_data.fit_posterior(resps,samps,num_bins = 51)
