@@ -30,6 +30,8 @@ In the `main()` function of `analysis.py` basic does to first
 2. Fit posterior categories for rectification - `all_data.git _posterior()`
 3. Plot the rectified histogram - `all_data.alt_hist_results()`
 
+Further examples on how to work with the data are in the `sfn_figs.ipynb` notebook, which shows how to produce session level plots
+
 
 Other functions exist for plotting the mean of the rows and the columns and for displaying these results
 
