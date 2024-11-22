@@ -2,6 +2,8 @@
 
 This repo contains experimental and analysis codes for the auditory ripple experiment
 
+A full copy of the direcrory, including codes and data, can be found in `ceph/akrami/Peter/AudioRipple`
+
 ## Experimental codes
 
 These experiments are designed to be run in person using Bonsai.  This is because we wrote custom routines to get smooth modulation of the waveforms.  The C-sharp code for this ripple is defined in the `Extensions` folder; `RippleGenerator.cs`.
